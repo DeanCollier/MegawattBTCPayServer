@@ -120,7 +120,7 @@ html {
 .action-button:hover {
     background-image: linear-gradient(to top, #f69b53, #f4843c);
     /*===HOVER BUTTON BACKGROUND COLOR GRADIENT===*/
-    border-color: #fff;
+    border-color: #3d3d3e;
     /*===BUTTON BORDER COLOR===*/
 }
 
