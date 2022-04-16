@@ -4,13 +4,13 @@
 /*https://raw.githack.com/DeanCollier/MegawattBTCPayServer/dev/btcpay_custom_checkout.css*/
 
 html {
-    background-color: #ed7c30 !important;
+    /*background-color: #ed7c30 !important;*/
     background-image: url(./assets/image2.png)
     /*===BACKGROUND COLOR===*/
 }
 
 .modal.page {
-    background-color: #ed7c30;
+    /*background-color: #ed7c30;*/
     /*===BACKGROUND COLOR===*/
 }
 
