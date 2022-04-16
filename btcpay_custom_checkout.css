@@ -228,6 +228,7 @@ html {
 }
 
 .payment-box {
+    background-color: #8c9494;
     height: 425px;
     /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
 }
