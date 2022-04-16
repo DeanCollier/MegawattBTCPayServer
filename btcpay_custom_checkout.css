@@ -22,7 +22,7 @@ html {
 .top-header {
     background-image: linear-gradient(to right, #f4843c, #f69b53);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
-    border-radius: 0px;
+    border-radius: 5px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
