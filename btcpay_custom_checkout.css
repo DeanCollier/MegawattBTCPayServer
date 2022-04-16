@@ -9,7 +9,7 @@ html {
 }
 
 .modal.page {
-    background-color: #f69b53;
+    background-color: #8c9494;
     /*===BACKGROUND COLOR===*/
 }
 
@@ -155,7 +155,7 @@ html {
 }
 
 .btnGroupLnd button.active {
-    background-image: linear-gradient(to left, #3d3d3e, #cd00b9);
+    background-image: linear-gradient(to left, #3d3d3e, #8c9494);
     /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
     background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
