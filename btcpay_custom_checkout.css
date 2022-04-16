@@ -9,7 +9,7 @@ html {
 }
 
 .modal.page {
-    background-color: #8c9494;
+    background-color: #f69b53;
     /*===BACKGROUND COLOR===*/
 }
 
@@ -97,6 +97,10 @@ html {
     /*===COLORED LINE ABOVE PAYMENT TABS===*/
     border-bottom: 1px solid #09182e;
     /*===COLORED LINE BELOW PAYMENT TABS===*/
+}
+
+.payment-tabs__tab.active {
+    background-color: #f69b53;
 }
 
 
