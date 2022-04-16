@@ -1,41 +1,44 @@
 /*======BACKGROUND COLOR======*/
 
+
+/*https://raw.githack.com/DeanCollier/MegawattBTCPayServer/dev/btcpay_custom_checkout.css*/
+
 html {
-    background-color: #790099 !important;
+    background-color: #f69b53 !important;
     /*===BACKGROUND COLOR===*/
 }
 
 .modal.page {
-    background-color: #790099;
+    background-color: #f69b53;
     /*===BACKGROUND COLOR===*/
 }
 
 
-/*=============================*/
+/*===================asdf==========*/
 
 
 /*=======HEADER SETTINGS=======*/
 
 .top-header {
-    background-image: linear-gradient(to right, #790099, #cd00b9);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
     border-radius: 0px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .top-header .timer-row__progress-bar {
-    border-top: 1px solid #790099;
-    border-bottom: 1px solid #790099;
-    background: #790099;
+    border-top: 1px solid #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+    background: #b9b9b9;
     /*===PROGRESS BAR COLOR===*/
 }
 
 .top-header .timer-row {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
-    background: #481b5c;
+    background: #8c9494;
     /*===PROGRESS BAR BACKGROUND COLOR===*/
 }
 
@@ -58,19 +61,19 @@ html {
 /*=====PAY WITH / AMOUNTS=====*/
 
 .line-items {
-    background-color: #09182e;
+    background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
     color: #fff !important;
     /*===TEXT COLOR===*/
     padding-top: 15px;
     padding-bottom: 10px;
-    border-top: 1px solid #fff !important;
-    border-bottom: 0px solid #fff;
+    border-top: 1px solid #3d3d3e !important;
+    border-bottom: 0px solid #3d3d3e;
 }
 
 .buyerTotalLine {
-    border-top: 1px solid #fff;
-    background-color: #481b5c;
+    border-top: 1px solid #3d3d3e;
+    background-color: #8c9494;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 12px;
@@ -83,14 +86,14 @@ html {
 /*=======PAYMENT TABS=======*/
 
 .payment-tabs__slider {
-    background: #790099;
+    background: #8c9494;
     /*===SLIDER COLOR===*/
 }
 
 .payment-tabs {
-    background-color: #481b5c;
+    background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
-    border-top: 1px solid #fff;
+    border-top: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PAYMENT TABS===*/
     border-bottom: 1px solid #09182e;
     /*===COLORED LINE BELOW PAYMENT TABS===*/
@@ -104,9 +107,9 @@ html {
 
 .action-button {
     color: #fff !important;
-    background-image: linear-gradient(to bottom, #790099, #cd00b9);
+    background-image: linear-gradient(to bottom, #f4843c, #f69b53);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-    border-color: #fff;
+    border-color: #3d3d3e;
     /*===BUTTON BORDER COLOR===*/
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
@@ -115,7 +118,7 @@ html {
 }
 
 .action-button:hover {
-    background-image: linear-gradient(to top, #790099, #cd00b9);
+    background-image: linear-gradient(to top, #f4843c, #f69b53);
     /*===HOVER BUTTON BACKGROUND COLOR GRADIENT===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -130,9 +133,9 @@ html {
 .btnGroupLnd {
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
-    background-image: linear-gradient(to right, #790099, #cd00b9);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -141,9 +144,9 @@ html {
 }
 
 .btnGroupLnd button {
-    background-image: linear-gradient(to right, #790099, #cd00b9);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -152,9 +155,9 @@ html {
 }
 
 .btnGroupLnd button.active {
-    background-image: linear-gradient(to left, #790099, #cd00b9);
+    background-image: linear-gradient(to left, #3d3d3e, #cd00b9);
     /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -174,7 +177,7 @@ html {
 }
 
 .currency-selection {
-    background-color: #481b5c;
+    background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
     border-bottom: 0px solid #fff;
     color: #fff;
@@ -198,7 +201,7 @@ html {
 }
 
 .vexmenuitem:hover {
-    background: #481b5c;
+    background: #3d3d3e;
     /*===MENU BACKGROUND COLOR===*/
 }
 
@@ -214,7 +217,7 @@ html {
 /*===QR AND QR BACKGROUND===*/
 
 .invoice {
-    background-color: #cd00b9;
+    background-color: #f69b53;
     /*===MENU BACKGROUND COLOR===*/
     border-radius: 0px;
     /*===ROUNDED CORNER SETTINGS===*/
@@ -306,8 +309,8 @@ span {
 /*====COPY INFO BOX/TEXTS====*/
 
 .copyBox {
-    background-color: #481b5c;
-    border-color: #481b5c;
+    background-color: #3d3d3e;
+    border-color: #3d3d3e;
 }
 
 .copyAmountText {
@@ -322,7 +325,7 @@ span {
 }
 
 .separatorGem {
-    background: #790099;
+    background: #f69b53;
     /*===GEM ICON COLOR===*/
 }
 
