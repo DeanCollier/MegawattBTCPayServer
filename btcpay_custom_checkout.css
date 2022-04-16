@@ -133,9 +133,9 @@ html {
 .btnGroupLnd {
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
-    background-image: linear-gradient(to right, #790099, #cd00b9);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -144,9 +144,9 @@ html {
 }
 
 .btnGroupLnd button {
-    background-image: linear-gradient(to right, #790099, #cd00b9);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -155,9 +155,9 @@ html {
 }
 
 .btnGroupLnd button.active {
-    background-image: linear-gradient(to left, #790099, #cd00b9);
+    background-image: linear-gradient(to left, #3d3d3e, #cd00b9);
     /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
-    background-color: #790099;
+    background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -177,7 +177,7 @@ html {
 }
 
 .currency-selection {
-    background-color: #481b5c;
+    background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
     border-bottom: 0px solid #fff;
     color: #fff;
@@ -201,7 +201,7 @@ html {
 }
 
 .vexmenuitem:hover {
-    background: #481b5c;
+    background: #3d3d3e;
     /*===MENU BACKGROUND COLOR===*/
 }
 
@@ -217,7 +217,7 @@ html {
 /*===QR AND QR BACKGROUND===*/
 
 .invoice {
-    background-color: #cd00b9;
+    background-color: #f69b53;
     /*===MENU BACKGROUND COLOR===*/
     border-radius: 0px;
     /*===ROUNDED CORNER SETTINGS===*/
@@ -309,8 +309,8 @@ span {
 /*====COPY INFO BOX/TEXTS====*/
 
 .copyBox {
-    background-color: #481b5c;
-    border-color: #481b5c;
+    background-color: #3d3d3e;
+    border-color: #3d3d3e;
 }
 
 .copyAmountText {
@@ -325,7 +325,7 @@ span {
 }
 
 .separatorGem {
-    background: #790099;
+    background: #f69b53;
     /*===GEM ICON COLOR===*/
 }
 
