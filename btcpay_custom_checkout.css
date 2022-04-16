@@ -27,9 +27,9 @@ html {
 }
 
 .top-header .timer-row__progress-bar {
-    border-top: 1px solid #f69b53;
-    border-bottom: 1px solid #f69b53;
-    background: #f69b53;
+    border-top: 1px solid #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+    background: #b9b9b9;
     /*===PROGRESS BAR COLOR===*/
 }
 
@@ -38,7 +38,7 @@ html {
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
     border-bottom: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
-    background: #f4843c;
+    background: #8c9494;
     /*===PROGRESS BAR BACKGROUND COLOR===*/
 }
 
