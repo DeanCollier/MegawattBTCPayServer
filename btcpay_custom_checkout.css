@@ -4,12 +4,12 @@
 /*https://raw.githack.com/DeanCollier/MegawattBTCPayServer/dev/btcpay_custom_checkout.css*/
 
 html {
-    background-color: #b9b9b9 !important;
+    background-color: #f69b53 !important;
     /*===BACKGROUND COLOR===*/
 }
 
 .modal.page {
-    background-color: #b9b9b9;
+    background-color: #f69b53;
     /*===BACKGROUND COLOR===*/
 }
 
@@ -20,7 +20,7 @@ html {
 /*=======HEADER SETTINGS=======*/
 
 .top-header {
-    background-image: linear-gradient(to right, #f4843c, #f69b53);
+    background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
     border-radius: 0px;
     /*===ROUNDED CORNER SETTINGS===*/
@@ -67,13 +67,13 @@ html {
     /*===TEXT COLOR===*/
     padding-top: 15px;
     padding-bottom: 10px;
-    border-top: 1px solid #fff !important;
-    border-bottom: 0px solid #fff;
+    border-top: 1px solid #3d3d3e !important;
+    border-bottom: 0px solid #3d3d3e;
 }
 
 .buyerTotalLine {
-    border-top: 1px solid #ffff;
-    background-color: #1b5c469a;
+    border-top: 1px solid #3d3d3e;
+    background-color: #8c9494;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 12px;
@@ -93,7 +93,7 @@ html {
 .payment-tabs {
     background-color: #481b5c;
     /*===BACKGROUND COLOR===*/
-    border-top: 1px solid #fff;
+    border-top: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PAYMENT TABS===*/
     border-bottom: 1px solid #09182e;
     /*===COLORED LINE BELOW PAYMENT TABS===*/
@@ -107,7 +107,7 @@ html {
 
 .action-button {
     color: #fff !important;
-    background-image: linear-gradient(to bottom, #790099, #cd00b9);
+    background-image: linear-gradient(to bottom, #f4843c, #f69b53);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
