@@ -1,7 +1,11 @@
 /*======BACKGROUND COLOR======*/
 
+
+/*https://raw.githack.com/DeanCollier/MegawattBTCPayServer/dev/btcpay_custom_checkout.css*/
+
 html {
     background-color: #ed7c30 !important;
+    background-image: url(./assets/image2.png)
     /*===BACKGROUND COLOR===*/
 }
 
