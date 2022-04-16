@@ -22,23 +22,23 @@ html {
 .top-header {
     background-image: linear-gradient(to right, #f4843c, #f69b53);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
-    border-radius: 5px;
+    border-radius: 0px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .top-header .timer-row__progress-bar {
-    border-top: 1px solid #790099;
-    border-bottom: 1px solid #790099;
-    background: #790099;
+    border-top: 1px solid #f69b53;
+    border-bottom: 1px solid #f69b53;
+    background: #f69b53;
     /*===PROGRESS BAR COLOR===*/
 }
 
 .top-header .timer-row {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #3d3d3e;
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
-    background: #481b5c;
+    background: #f4843c;
     /*===PROGRESS BAR BACKGROUND COLOR===*/
 }
 
@@ -61,7 +61,7 @@ html {
 /*=====PAY WITH / AMOUNTS=====*/
 
 .line-items {
-    background-color: #09182e;
+    background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
     color: #fff !important;
     /*===TEXT COLOR===*/
