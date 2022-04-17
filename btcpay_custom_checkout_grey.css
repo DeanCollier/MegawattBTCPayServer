@@ -109,7 +109,7 @@ html {
 
 .payment-tabs__tab.active {
     background-color: #f69b53;
-    border-bottom: #3d3d3e 3px solid;
+    border-bottom: #3d3d3e 3px solid !important;
 }
 
 
