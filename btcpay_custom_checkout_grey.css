@@ -42,6 +42,10 @@ html {
     /*===PROGRESS BAR BACKGROUND COLOR===*/
 }
 
+.top-header .close-icon {
+    color: #3d3d3e !important;
+}
+
 .header__icon__img {
     display: block;
     width: 360px;
@@ -77,6 +81,10 @@ html {
     color: #fff;
     padding-top: 15px;
     padding-bottom: 12px;
+}
+
+.buyerTotalLine .fa-angle-double-down {
+    opacity: .7 !important;
 }
 
 
@@ -251,7 +259,7 @@ html {
 }
 
 .expired__body {
-    color: #000000;
+    color: #fff;
 }
 
 
