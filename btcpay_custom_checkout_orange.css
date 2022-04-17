@@ -68,13 +68,13 @@ html {
     padding-top: 15px;
     padding-bottom: 10px;
     border-top: 1px solid #3d3d3e !important;
-    border-bottom: 0px solid #f69b53;
+    border-bottom: 0px solid #fcbc7c;
 }
 
 .buyerTotalLine {
-    border-top: 1px solid #3d3d3e;
-    background-color: #8c9494;
-    color: #fff;
+    border-top: 1px solid #f69b53;
+    background-color: #f69b53;
+    color: #3d3d3e;
     padding-top: 15px;
     padding-bottom: 12px;
 }
@@ -86,21 +86,21 @@ html {
 /*=======PAYMENT TABS=======*/
 
 .payment-tabs__slider {
-    background: #8c9494;
+    background: #3d3d3e;
     /*===SLIDER COLOR===*/
 }
 
 .payment-tabs {
     background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
-    border-top: 1px solid #3d3d3e;
+    border-top: 1px solid #fcbc7c;
     /*===COLORED LINE ABOVE PAYMENT TABS===*/
-    border-bottom: 1px solid #09182e;
+    border-bottom: 1px solid #fcbc7c;
     /*===COLORED LINE BELOW PAYMENT TABS===*/
 }
 
 .payment-tabs__tab.active {
-    background-color: #f69b53;
+    background-color: #f4843c;
 }
 
 
@@ -111,7 +111,7 @@ html {
 
 .action-button {
     color: #fff !important;
-    background-image: linear-gradient(to bottom, #f4843c, #f69b53);
+    background-image: linear-gradient(to bottom, #8c9494, #a0a1a2);
     /*===BUTTON BACKGROUND COLOR GRADIENT===*/
     border-color: #3d3d3e;
     /*===BUTTON BORDER COLOR===*/
@@ -122,7 +122,7 @@ html {
 }
 
 .action-button:hover {
-    background-image: linear-gradient(to top, #f4843c, #f69b53);
+    background-image: linear-gradient(to top, #8c9494, #a0a1a2);
     /*===HOVER BUTTON BACKGROUND COLOR GRADIENT===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
@@ -181,10 +181,10 @@ html {
 }
 
 .currency-selection {
-    background-color: #3d3d3e;
+    background-color: #f69b53;
     /*===BACKGROUND COLOR===*/
-    border-bottom: 0px solid #fff;
-    color: #fff;
+    border-bottom: 0px solid #fcbc7c;
+    color: #3d3d3e;
     /*===TEXT COLOR===*/
     padding-top: 15px;
     padding-bottom: 10px;
@@ -221,14 +221,14 @@ html {
 /*===QR AND QR BACKGROUND===*/
 
 .invoice {
-    background-color: #8c9494;
+    background-color: #f4843c;
     /*===MENU BACKGROUND COLOR===*/
     border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .payment-box {
-    background-color: #8c9494;
+    background-color: #f4843c;
     height: 425px;
     /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
 }
@@ -314,23 +314,23 @@ span {
 /*====COPY INFO BOX/TEXTS====*/
 
 .copyBox {
-    background-color: #3d3d3e;
-    border-color: #3d3d3e;
+    background-color: #f69b53;
+    border-color: #fcbc7c;
 }
 
 .copyAmountText {
-    color: #fff;
+    color: #3d3d3e;
     /*===TEXT COLOR===*/
 }
 
 .copySectionBox label {
-    color: #fff;
+    color: #3d3d3e;
     /*===TEXT COLOR===*/
     opacity: 1;
 }
 
 .separatorGem {
-    background: #f69b53;
+    background: #3d3d3e;
     /*===GEM ICON COLOR===*/
 }
 
@@ -351,7 +351,7 @@ span {
   */
 
 .success-message {
-    color: #fff;
+    color: #3d3d3e;
     /* ===TEXT COLOR=== */
 }
 
