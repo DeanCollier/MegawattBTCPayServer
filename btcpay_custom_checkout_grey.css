@@ -231,6 +231,8 @@ html {
     background-color: #8c9494;
     height: 425px;
     /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
+    border-radius: 6px;
+    /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .payment__scan {
