@@ -107,7 +107,7 @@ html {
     /*===COLORED LINE BELOW PAYMENT TABS===*/
 }
 
-.payment-tabs {
+.payment-tabs__tab {
     border-bottom: #f69b53 2px solid;
 }
 
