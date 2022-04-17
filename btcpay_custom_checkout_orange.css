@@ -63,12 +63,12 @@ html {
 .line-items {
     background-color: #3d3d3e;
     /*===BACKGROUND COLOR===*/
-    color: #fff !important;
+    color: #3d3d3e !important;
     /*===TEXT COLOR===*/
     padding-top: 15px;
     padding-bottom: 10px;
     border-top: 1px solid #3d3d3e !important;
-    border-bottom: 0px solid #3d3d3e;
+    border-bottom: 0px solid #f69b53;
 }
 
 .buyerTotalLine {
