@@ -22,7 +22,7 @@ html {
 .top-header {
     background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -117,7 +117,7 @@ html {
     /*===BUTTON BORDER COLOR===*/
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -143,7 +143,7 @@ html {
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -154,7 +154,7 @@ html {
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -165,7 +165,7 @@ html {
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -176,7 +176,7 @@ html {
 /*=====CURRENCY DROPDOWN=====*/
 
 .payment__currencies {
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -193,7 +193,7 @@ html {
 
 .vex.vex-theme-btcpay .vex-content {
     padding: 1px;
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
@@ -223,7 +223,7 @@ html {
 .invoice {
     background-color: #8c9494;
     /*===MENU BACKGROUND COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
