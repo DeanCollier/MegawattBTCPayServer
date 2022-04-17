@@ -107,9 +107,13 @@ html {
     /*===COLORED LINE BELOW PAYMENT TABS===*/
 }
 
+.payment-tabs {
+    border-bottom: #f69b53 2px solid;
+}
+
 .payment-tabs__tab.active {
-    background-color: #f69b53;
-    border-bottom: #3d3d3e 3px solid !important;
+    background-color: #3d3d3e;
+    border-bottom: #f69b53 10px solid;
 }
 
 
