@@ -4,12 +4,12 @@
 /*https://raw.githack.com/DeanCollier/MegawattBTCPayServer/dev/btcpay_custom_checkout.css*/
 
 html {
-    background-color: #f69b53 !important;
+    background-color: #f4843c !important;
     /*===BACKGROUND COLOR===*/
 }
 
 .modal.page {
-    background-color: #f69b53;
+    background-color: #f4843c;
     /*===BACKGROUND COLOR===*/
 }
 
@@ -22,7 +22,7 @@ html {
 .top-header {
     background-image: linear-gradient(to right, #3d3d3e, #8c9494);
     /*===HEADER BACKGROUND GRADIENT, CAN BE CHANGED TO SINGLE COLOR. UPLOAD (TRANSPARANT) PNG WITH HEADER LOGO WITH FOLLOWING DIMENTSIONS 720X120PX ===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -40,6 +40,10 @@ html {
     /*===COLORED LINE ABOVE PROGRESS BAR===*/
     background: #8c9494;
     /*===PROGRESS BAR BACKGROUND COLOR===*/
+}
+
+.top-header .close-icon {
+    color: #3d3d3e !important;
 }
 
 .header__icon__img {
@@ -79,6 +83,10 @@ html {
     padding-bottom: 12px;
 }
 
+.buyerTotalLine .fa-angle-double-down {
+    opacity: .7 !important;
+}
+
 
 /*==========================*/
 
@@ -86,7 +94,7 @@ html {
 /*=======PAYMENT TABS=======*/
 
 .payment-tabs__slider {
-    background: #8c9494;
+    background: #3d3d3e;
     /*===SLIDER COLOR===*/
 }
 
@@ -97,6 +105,15 @@ html {
     /*===COLORED LINE ABOVE PAYMENT TABS===*/
     border-bottom: 1px solid #09182e;
     /*===COLORED LINE BELOW PAYMENT TABS===*/
+}
+
+.payment-tabs__tab {
+    border-bottom: #f69b53 2px solid;
+}
+
+.payment-tabs__tab.active {
+    background-color: #3d3d3e;
+    border-bottom: #f69b53 10px solid;
 }
 
 
@@ -113,7 +130,7 @@ html {
     /*===BUTTON BORDER COLOR===*/
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -139,7 +156,7 @@ html {
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -150,18 +167,18 @@ html {
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .btnGroupLnd button.active {
-    background-image: linear-gradient(to left, #3d3d3e, #cd00b9);
+    background-image: linear-gradient(to left, #3d3d3e, #8c9494);
     /*===ACTIVE BUTTON BACKGROUND COLOR GRADIENT===*/
     background-color: #3d3d3e;
     /*===BUTTON BACKGROUND COLOR (IF NO GRADIENT IS WANTED DELETE LINE ABOVE THIS)===*/
     border-color: #fff;
     /*===BUTTON BORDER COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -172,7 +189,7 @@ html {
 /*=====CURRENCY DROPDOWN=====*/
 
 .payment__currencies {
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
@@ -189,7 +206,7 @@ html {
 
 .vex.vex-theme-btcpay .vex-content {
     padding: 1px;
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
     box-shadow: 0px 0px 15px -3px #000000;
     /*===DROP SHADOW SETTINGS===*/
@@ -217,15 +234,18 @@ html {
 /*===QR AND QR BACKGROUND===*/
 
 .invoice {
-    background-color: #f69b53;
+    background-color: #8c9494;
     /*===MENU BACKGROUND COLOR===*/
-    border-radius: 0px;
+    border-radius: 6px;
     /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .payment-box {
+    background-color: #8c9494;
     height: 425px;
     /*===SIZE IMPORTANT BECAUSE HEIGHT LIGHTNING QR CODE + OUTLINE===*/
+    border-radius: 6px;
+    /*===ROUNDED CORNER SETTINGS===*/
 }
 
 .payment__scan {
@@ -244,7 +264,7 @@ html {
 }
 
 .expired__body {
-    color: #000000;
+    color: #fff;
 }
 
 
